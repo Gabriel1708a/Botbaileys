@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-admin-bot",
+  "version": "1.0.0",
+  "description": "Bot Administrador de Grupos WhatsApp com Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["whatsapp", "bot", "baileys", "admin"],
+  "author": "WhatsApp Admin Bot",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "moment-timezone": "^0.5.43",
+    "fs-extra": "^11.1.1",
+    "pino": "^8.15.0",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
