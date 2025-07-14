@@ -102,7 +102,7 @@ class WhatsAppBot {
         // Código de pareamento (8 dígitos)
         if (qr) {
             console.log('📱 Use o código de pareamento no WhatsApp:');
-            const pairingCode = await this.sock.requestPairingCode('5511999999999'); // Substitua pelo seu número
+            const pairingCode = await this.sock.requestPairingCode('5543991258813'); // Número do bot configurado
             console.log(`🔑 Código: ${pairingCode}`);
         }
     }

@@ -57,9 +57,9 @@ npm install
 ```
 
 ### 3. Configure o bot
-Edite o arquivo `index.js` na linha 98 e substitua pelo seu número:
+O número do bot já está configurado como `5543991258813`. Se precisar alterar, edite o arquivo `index.js` na linha 98:
 ```javascript
-const pairingCode = await this.sock.requestPairingCode('5511999999999'); // Seu número aqui
+const pairingCode = await this.sock.requestPairingCode('5543991258813'); // Número do bot
 ```
 
 ### 4. Execute o bot
