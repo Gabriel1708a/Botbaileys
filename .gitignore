@@ -6,7 +6,6 @@ yarn-error.log*
 
 # Sessão do WhatsApp (contém credenciais)
 session/
-*.json
 
 # Dados persistentes
 data/
